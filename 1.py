@@ -17,10 +17,10 @@ def dividir(a, b):
 
 def calculadora():
     while True:
-        print("1. Soma")
+        print("1. Somar")
         print("2. Subtrair")
         print("3. Multiplicar")
-        print("4. Dividi")
+        print("4. Dividir")
         print("5. Ver histórico")
         print("6. Sair")
 
