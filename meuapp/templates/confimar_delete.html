@@ -8,8 +8,8 @@
 <body>
     <form method="post">
        {% csrf_token %}
-       <p>Tem certeza que deseja deletar {{ pessoa.nome }}</p>
-       <button type="submit">Sim</button>
+       <p>Tem certeza que deseja deletar {{ pessoa.nome }}?</p>
+       <button type="submit">✅</button>
     </form>
 </body>
 </html>
